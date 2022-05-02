@@ -7,6 +7,7 @@ features.
 
 
 Program instructions:
+
 1. Connect to the server socket connection:
   a. Open the command line terminal at the /src folder of the project.
   b. Enter the following command to compile the Server class: “javac ie/gmit/dip/ChatServer.java”.
@@ -31,6 +32,7 @@ be notified that the other user has left the chat and that the chat has ended.
 
 
 Program information:
+
   ● The program uses the getName() method to allow the user to enter their name, this is used for the other user to see who they are chatting to. The name is stored as a private instance variable and accessed and sent to the other user using the PrintWriter out object. This name will be shown when the chat begins to notify each user and when every message is received, the name will be displayed beside the received message.
   
   ● The getPort() method allows the users to enter the port they would like to connect to, to begin the chat. The port number is set as a private instance variable. The server must set this number and the client must use the same port number in order to make a successful connection to the server.
