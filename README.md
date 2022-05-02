@@ -1,6 +1,7 @@
 # console-chat-application
 
 PROJECT INTRODUCTION:
+
 This is a console network-based chat application using Java and Java Socket API. This document
 will provide the instructions of how to use the program and the program information and
 features.
