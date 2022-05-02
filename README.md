@@ -6,6 +6,7 @@ will provide the instructions of how to use the program and the program informat
 features.
 
 
+
 Program instructions:
 
 1. Connect to the server socket connection:
@@ -31,6 +32,7 @@ chatting by typing into the console and pressing enter.
 be notified that the other user has left the chat and that the chat has ended.
 
 
+
 Program information:
 
   ● The program uses the getName() method to allow the user to enter their name, this is used for the other user to see who they are chatting to. The name is stored as a private instance variable and accessed and sent to the other user using the PrintWriter out object. This name will be shown when the chat begins to notify each user and when every message is received, the name will be displayed beside the received message.
@@ -46,7 +48,8 @@ Program information:
   ● If the client cannot reach the server then the client will be notified that they cannot connect. This may happen if the client enters a different port number then the server.
 
 
-References
+References:
+
   ● Socket (Java Platform SE 7 ). 2022. Socket (Java Platform SE 7 ). [ONLINE] Available at: https://docs.oracle.com/javase/7/docs/api/java/net/Socket.html. [Accessed 03 January 2022].
   ● GeeksforGeeks. 2022. A Group chat application in Java - GeeksforGeeks. [ONLINE] Available at: https://www.geeksforgeeks.org/a-group-chat-application-in-java/. [Accessed 04 January 2022].
   ● Jihen Barhoumi. 2022. Create a chat app with java sockets | by Jihen Barhoumi | Nerd For Tech | Medium. [ONLINE] Available at: https://medium.com/nerd-for-tech/create-a-chat-app-with-java-sockets-8449fdaa933. [Accessed 05 January 2022]
